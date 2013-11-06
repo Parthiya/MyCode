@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="L-156034617" name="com.testing.wipro.MultiplyClassTest" skipped="0" tests="2" time="0.225" timestamp="2013-11-06T10:37:41">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\classes" />
+    <property name="test-classes" value="D:\MyCode\build\test-classes" />
+    <property name="TODAY" value="November 6 2013" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2" />
+    <property name="java.runtime.version" value="1.7.0_45-b18" />
+    <property name="user.name" value="pdharam" />
+    <property name="ipAddress" value="${JenkinsStack_PublicIP}" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin" />
+    <property name="ant.project.default-target" value="dist" />
+    <property name="ant.project.name" value="PROJECT_NAME" />
+    <property name="DSTAMP" value="20131106" />
+    <property name="java.version" value="1.7.0_45" />
+    <property name="classes" value="D:\MyCode\build\classes" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_45\jre" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="ant.file" value="D:\MyCode\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.45-b08" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib" />
+    <property name="instanceId" value="${JenkinsStack_InstanceId}" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\pdharam" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\RA2HP\;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby1.9.3\bin;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files\apache-tomcat-7.0.39\bin;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp C:\JUNIT\junit4.11.jar;C:\Program Files\Java\jdk1.7.0_45\lib -f build.xml" />
+    <property name="java.class.path" value="D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-launcher.jar;C:\JUNIT\junit4.11.jar;C:\Program Files\Java\jdk1.7.0_45\lib\;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-antlr.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-apache-bcel.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-apache-bsf.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-apache-log4j.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-apache-oro.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-apache-regexp.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-apache-resolver.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-apache-xalan2.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-commons-logging.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-commons-net.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-jai.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-javamail.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-jdepend.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-jmf.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-jsch.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-junit.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-junit4.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-launcher.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-netrexx.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-swing.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant-testutil.jar;D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant.jar;C:\Program Files\Java\jdk1.7.0_45\lib\tools.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="timestamp" value="2013-11-06_04-07" />
+    <property name="TSTAMP" value="1607" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\pdharam\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\MyCode" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="basedir" value="D:\MyCode" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="D:\Softs\apache-ant-1.9.2-bin\apache-ant-1.9.2\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.file.PROJECT_NAME" value="D:\MyCode\build.xml" />
+    <property name="ant.file.type.PROJECT_NAME" value="file" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="dist" />
+    <property name="test-reports" value="D:\MyCode\build\test-reports" />
+  </properties>
+  <testcase classname="com.testing.wipro.MultiplyClassTest" name="testDivison" time="0.019" />
+  <testcase classname="com.testing.wipro.MultiplyClassTest" name="testMultiply" time="0.001" />
+  <system-out><![CDATA[System Set Up
+Division of 35 &7 is5
+System Set Up
+Multipication of 5 &7 is35
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
